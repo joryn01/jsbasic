@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS-Basics 2</title>
+</head>
+<body>
+    <h1>JS Basics 2</h1>
+    <table>
+        <tr>
+            <td>
+                <label for="num1">First Name:</label>
+            </td>
+            <td>
+                <input type="text" name="fname" id="num1" placeholder="Enter First Name">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="num2">Middle Name:</label>
+            </td>
+            <td>
+                <input type="text" name="mname" id="num2" placeholder="Enter Middle Name">
+            </td>
+        </tr>
+        <td>
+            <label for="num2">Last Name:</label>
+        </td>
+        <td>
+            <input type="text" name="lname" id="num3" placeholder="Enter Last Name">
+        </td>
+        <tr>
+            <td></td>
+            <td>
+                <button onclick="concatenate()">Generate</button>
+                <button onclick="clearEntries()">Clear Entries</button>
+            </td>
+        </tr>
+    </table>
+
+    <p style="font-weight: bold;">Full Name:</p>
+    <span id="sum"></span>
+
+    <script src="main.js"></script>
+</body>
+</html>
